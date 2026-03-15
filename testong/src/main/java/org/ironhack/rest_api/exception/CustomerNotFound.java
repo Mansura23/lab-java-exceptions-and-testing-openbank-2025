@@ -1,0 +1,7 @@
+package org.ironhack.rest_api.exception;
+
+public class CustomerNotFound extends RuntimeException {
+    public CustomerNotFound(String message) {
+        super(message);
+    }
+}
